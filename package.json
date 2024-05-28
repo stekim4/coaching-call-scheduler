@@ -1,0 +1,10 @@
+{
+  "name": "coaching-call-scheduler",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run dev --prefix backend\" \"npm start --prefix frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
